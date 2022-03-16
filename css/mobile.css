@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Nunito+Sans:wght@400;800&display=swap');
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Navbar */
+
+
+.navbar-container {
+    padding-left: 5%;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.nav-link {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+/* hero-section */
+
+
+.hero {
+    position: relative;
+}
+
+.hero-image {
+    position: relative;
+    margin-top: 10%;
+}
+
+.man-with-laptop {
+    width: 80%;
+}
+
+
+
+/* hero-text-elements */
+
+.hero-text-area {
+    position: relative;
+}
+
+.hello {
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+
+.hero-heading {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.hero-heading:after {
+    content: "";
+    width: 125px;
+    height: 30px;
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    left: 50%;
+    margin-left: -60px;
+    background: url(https://demo.templateflip.com/super/images/marker.svg);
+    background-repeat: no-repeat;
+}
+
+.hero-description {
+
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    color: rgb(83, 78, 78);
+}
+
+
+/* hero-social-icons-links */
+
+
+.icons {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+a {
+    padding: 0 2%;
+    color: black;
+    text-decoration: none;
+    transform: 0.3s;
+}
+
+a:hover {
+    color: rgb(71, 70, 67);
+}
+
+/* button */
+
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    color: #000000;
+    font-size: 15px;
+    background: #f6e05e;
+    border-color: #f6e05e;
+    padding: 11px 31px 11px 31px;
+    text-decoration: none;
+    margin-top: 5%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+
+
+}
+
+.btn:hover {
+    background: #fae571;
+    text-decoration: none;
+    border-color: #f6e05e;
+    color: #000000;
+    transform: translate(0, -10px);
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    background-color: #fae571;
+    border-color: #fae571;
+    color: #000000;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+
+    box-shadow: none;
+}
+
+/* bio-section */
+
+
+.bio-section {
+    position: relative;
+    margin-top: 3rem;
+}
+
+.bio-heading {
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-wrapper {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.profile-image {
+    width: 80%;
+    border-radius: 1rem;
+    box-shadow: 10px 8px 100px 1px rgb(88, 88, 83);
+}
+
+/* skills-section */
+
+
+.skills-section {
+    padding-top: 2rem;
+}
+
+.skills-head {
+    text-align: center;
+
+}
+
+.skills-heading {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.skills-heading::after {
+    content: "";
+    width: 125px;
+    height: 30px;
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    left: 50%;
+    margin-left: -60px;
+    background: url(https://demo.templateflip.com/super/images/marker.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+.progress-bar {
+    background-color: #f6e05e;
+}
+
+.progress {
+    border: 0;
+
+    border-radius: 20px;
+}
+
+.progress::-webkit-progress-bar {
+    border: 0;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.progress::-webkit-progress-value {
+    border: 0;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.progress::-moz-progress-bar {
+    border: 0;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/* photography-section */
+
+.photography {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.photos-wrapper {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.my-clicks-heading {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.my-clicks-heading:after {
+    content: "";
+    width: 125px;
+    height: 30px;
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    left: 50%;
+    margin-left: -60px;
+    background: url(https://demo.templateflip.com/super/images/marker.svg);
+    background-repeat: no-repeat;
+}
+
+
+.photos {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1rem;
+    transition: 0.5s ease;
+
+}
+
+.photos:hover {
+    -webkit-filter: grayscale(100%) blur(1px);
+
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) blur(1px);
+}
+
+
+.footer-heading {
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-description,
+.copyright {
+    font-size: 0.5rem;
+}
+
+.footer {
+
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.footer-icons {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+@media (min-width:700px) {
+
+
+    /* nav-bar */
+    .navbar {
+        padding-top: 1.5rem;
+    }
+
+    .navbar-container {
+        margin: 0 8%;
+    }
+
+    /* hero-section */
+    .hero-section {
+        padding-right: 8%;
+        padding-left: 8%;
+        text-align: left;
+    }
+
+    .hero-text-area {
+        padding: 0;
+        padding-top: 3rem;
+    }
+
+    .hreo-description {
+        font-size: 1.2rem;
+    }
+
+    .man-with-laptop {
+        width: 103%;
+    }
+
+    .hero-heading::after {
+        left: 245px;
+    }
+
+    .bio-section {
+        padding-top: 15%;
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+
+    .bio-list-row {
+        row-gap: 0.5rem;
+    }
+
+    .profile-wrapper {
+        margin-left: 100px;
+    }
+
+
+    /* skill-section */
+    .skills-section {
+        margin-top: 5rem;
+    }
+
+    .skills-description {
+        padding-left: 18.75rem;
+        padding-right: 18.75rem;
+    }
+
+    .py-1 {
+        margin-bottom: 1.5rem;
+    }
+
+    .skill-row {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .photography {
+        margin-top: 5rem;
+    }
+
+    /* footer */
+
+    .footer {
+        margin-top: 5rem;
+    }
+
+    .footer-icons>a {
+        padding: 0 1%;
+
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .design {
+        padding: 0 1px;
+    }
+
+}
