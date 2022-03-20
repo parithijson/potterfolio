@@ -319,6 +319,15 @@ a:hover {
     padding: 0;
 }
 
+/* modal */
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
 @media (min-width:700px) {
 
 
